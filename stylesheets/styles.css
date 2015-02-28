@@ -48,27 +48,16 @@
 
 @media (min-width: 800px) {
     #speciality {
-        
-        display: box;
-        box-pack: center;
-        box-align: center;
-
-        display: -webkit-box;
-        -webkit-box-pack: center;
-        -webkit-box-align: center;
-
         text-align: center;
         position: relative;
-        height: 100%;
         
         text-align: center;
         background-color: #2cd7e0;  
-        position: relative;
         height: 100%;
         background-image: url(/images/bg_speciality.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;
+        background-position: 0 0 0 0;
     }
     
 }
@@ -97,17 +86,13 @@ html, body {
     height: 100%;
 }
 
-
-
-
-
 #speciality {
-    display: flex;
     background-color: #2cd7e0;
 }
 
 #speciality img{
-    flex: 1;
+    margin: 140px -15px;
+    height: auto;
 }
 
 
