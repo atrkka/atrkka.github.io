@@ -25,7 +25,8 @@
     
 }
 
-@media (max-width: 480px) {
+
+@media (max-width: 700px) {
     #about {
         display: box;
         box-pack: center;
@@ -46,21 +47,171 @@
     }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1220px) {
     #speciality {
+        
+        display: box;
+        box-pack: center;
+        box-align: center;
+
+        display: -webkit-box;
+        -webkit-box-pack: center;
+        -webkit-box-align: center;
+
         text-align: center;
         position: relative;
+        height: 100%;
         
         text-align: center;
         background-color: #2cd7e0;  
+        position: relative;
         height: 100%;
         background-image: url(/images/bg_speciality.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: 0 0 0 0;
+        background-position: top;
+    }
+    
+    #speciality img{
+    margin: 140px -15px;
+    height: auto;
+    }
+
+}
+
+@media (max-width: 700px) {
+    #specialyty {
+        display: box;
+        box-pack: center;
+        box-align: center;
+
+        display: -webkit-box;
+        -webkit-box-pack: center;
+        -webkit-box-align: center;
+
+        text-align: center;
+        position: relative;
+        height: 100%;
+    }
+
+    #speciality img {
+        width: 100%;
+        vertical-align: middle;
+    }
+}
+
+@media (min-width: 800px) {
+    #pickpic {
+        
+        display: box;
+        box-pack: center;
+        box-align: center;
+
+        display: -webkit-box;
+        -webkit-box-pack: center;
+        -webkit-box-align: center;
+
+        text-align: center;
+        position: relative;
+        height: 100%;
+        
+        text-align: center;
+        background-color: #456ebb;  
+        position: relative;
+        height: 100%;
+        background-image: url(/images/bg_pickpic.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        position: relative;
+    }
+    #picpick img{
+        position: absolute;
+    }
+}
+
+
+@media (max-width: 800px) {
+    #pickpic {
+        display: box;
+        box-pack: center;
+        box-align: center;
+
+        display: -webkit-box;
+        -webkit-box-pack: center;
+        -webkit-box-align: center;
+
+       
+        position: relative;
+        height: 100%;
+        background-color: #456ebb;
+    }
+
+    #pickpic img {
+        width: 100%;
+        margin-bottom: 0;
+    }
+}
+
+
+@media (min-width: 800px) {
+    #message {
+        
+        display: box;
+        box-pack: center;
+        box-align: center;
+
+        display: -webkit-box;
+        -webkit-box-pack: center;
+        -webkit-box-align: center;
+
+        text-align: center;
+        position: relative;
+        height: 100%;
+        
+        text-align: center;
+        background-color: #bec9cb;  
+        position: relative;
+        height: 100%;
+        background-image: url(/images/bg_message.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
     
 }
+
+
+@media (max-width: 700px) {
+    #message {
+        display: box;
+        box-pack: center;
+        box-align: center;
+
+        display: -webkit-box;
+        -webkit-box-pack: center;
+        -webkit-box-align: center;
+
+        text-align: center;
+        position: relative;
+        height: 100%;
+    }
+
+    #about img {
+        width: 100%;
+        vertical-align: middle;
+    }
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -88,15 +239,8 @@ html, body {
 
 #speciality {
     background-color: #2cd7e0;
+    position: relative
 }
-
-#speciality img{
-    margin: 140px -15px;
-    height: auto;
-}
-
-
-
 
 #works {
     display: flex;
@@ -110,12 +254,16 @@ html, body {
 }
 
 #pickpic {
+    position: relative;
+    text-align: bottom;
     background-color: #456ebb;
-    text-align: center;
+    height: 100%;
 }
 
-#pickpic img {
-    position: relative;
+#pickpic img{
+    position: absolute;
+    left: 22%;
+    bottom: 0;
 }
 
 #message {
