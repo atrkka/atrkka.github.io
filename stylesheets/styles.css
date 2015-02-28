@@ -1,6 +1,6 @@
 @media (min-width: 800px) {
     #about {
-        
+
         display: box;
         box-pack: center;
         box-align: center;
@@ -12,7 +12,7 @@
         text-align: center;
         position: relative;
         height: 100%;
-        
+
         text-align: center;
         background-color: #ffcf00;  
         position: relative;
@@ -22,11 +22,11 @@
         background-size: cover;
         background-position: center;
     }
-    
+
 }
 
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
     #about {
         display: box;
         box-pack: center;
@@ -37,7 +37,6 @@
         -webkit-box-align: center;
 
         text-align: center;
-        position: relative;
         height: 100%;
     }
 
@@ -47,9 +46,9 @@
     }
 }
 
-@media (min-width: 1220px) {
+@media (min-width: 900px) {
     #speciality {
-        
+
         display: box;
         box-pack: center;
         box-align: center;
@@ -61,7 +60,7 @@
         text-align: center;
         position: relative;
         height: 100%;
-        
+
         text-align: center;
         background-color: #2cd7e0;  
         position: relative;
@@ -71,15 +70,15 @@
         background-size: cover;
         background-position: top;
     }
-    
+
     #speciality img{
-    margin: 140px -15px;
-    height: auto;
+        margin: 140px -15px;
+        height: auto;
     }
 
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
     #specialyty {
         display: box;
         box-pack: center;
@@ -90,19 +89,20 @@
         -webkit-box-align: center;
 
         text-align: center;
-        position: relative;
         height: 100%;
     }
 
     #speciality img {
-        width: 100%;
+        align-content: center;
+        width: 80%;
+        height: 80%;
         vertical-align: middle;
     }
 }
 
 @media (min-width: 800px) {
     #pickpic {
-        
+
         display: box;
         box-pack: center;
         box-align: center;
@@ -114,7 +114,7 @@
         text-align: center;
         position: relative;
         height: 100%;
-        
+
         text-align: center;
         background-color: #456ebb;  
         position: relative;
@@ -122,16 +122,13 @@
         background-image: url(/images/bg_pickpic.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: top;
-        position: relative;
+        background-position: center;
     }
-    #picpick img{
-        position: absolute;
-    }
+
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     #pickpic {
         display: box;
         box-pack: center;
@@ -141,22 +138,20 @@
         -webkit-box-pack: center;
         -webkit-box-align: center;
 
-       
-        position: relative;
+        text-align: center;
         height: 100%;
-        background-color: #456ebb;
     }
 
-    #pickpic img {
+    #about img {
         width: 100%;
-        margin-bottom: 0;
+        vertical-align: middle;
     }
 }
 
 
 @media (min-width: 800px) {
     #message {
-        
+
         display: box;
         box-pack: center;
         box-align: center;
@@ -168,7 +163,7 @@
         text-align: center;
         position: relative;
         height: 100%;
-        
+
         text-align: center;
         background-color: #bec9cb;  
         position: relative;
@@ -178,11 +173,11 @@
         background-size: cover;
         background-position: center;
     }
-    
+
 }
 
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
     #message {
         display: box;
         box-pack: center;
@@ -193,7 +188,6 @@
         -webkit-box-align: center;
 
         text-align: center;
-        position: relative;
         height: 100%;
     }
 
@@ -254,19 +248,23 @@ html, body {
 }
 
 #pickpic {
+    text-align: center;
+    background-color: #456ebb;  
     position: relative;
-    text-align: bottom;
-    background-color: #456ebb;
     height: 100%;
 }
 
-#pickpic img{
-    position: absolute;
-    left: 22%;
-    bottom: 0;
+#pickpic img {
+    max-width: 100%;
 }
 
 #message {
-    background-color: #bec9cb;
     text-align: center;
+    position: relative;
+    height: 100%;
+    background-color: #bec9cb;
+}
+
+#message img {
+    max-width: 100%;
 }
