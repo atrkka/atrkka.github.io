@@ -1,3 +1,81 @@
+@media (min-width: 800px) {
+    #about {
+        
+        display: box;
+        box-pack: center;
+        box-align: center;
+
+        display: -webkit-box;
+        -webkit-box-pack: center;
+        -webkit-box-align: center;
+
+        text-align: center;
+        position: relative;
+        height: 100%;
+        
+        text-align: center;
+        background-color: #ffcf00;  
+        position: relative;
+        height: 100%;
+        background-image: url(/images/bg_about.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    #about {
+        display: box;
+        box-pack: center;
+        box-align: center;
+
+        display: -webkit-box;
+        -webkit-box-pack: center;
+        -webkit-box-align: center;
+
+        text-align: center;
+        position: relative;
+        height: 100%;
+    }
+
+    #about img {
+        width: 100%;
+        vertical-align: middle;
+    }
+}
+
+@media (min-width: 800px) {
+    #speciality {
+        
+        display: box;
+        box-pack: center;
+        box-align: center;
+
+        display: -webkit-box;
+        -webkit-box-pack: center;
+        -webkit-box-align: center;
+
+        text-align: center;
+        position: relative;
+        height: 100%;
+        
+        text-align: center;
+        background-color: #2cd7e0;  
+        position: relative;
+        height: 100%;
+        background-image: url(/images/bg_speciality.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+}
+
+
+
+
 html, body {
     margin: 0px;
     height: 100%;
@@ -19,18 +97,9 @@ html, body {
     height: 100%;
 }
 
-.img2{
-    margin-top: 200px;
-    z-index: 1;
-}
 
-.img1{
-    position: absolute;
-    margin-top: 50px;
-    left: 50%;
-    margin-left: -250px;
-    z-index: 2;
-}
+
+
 
 #speciality {
     display: flex;
@@ -40,6 +109,9 @@ html, body {
 #speciality img{
     flex: 1;
 }
+
+
+
 
 #works {
     display: flex;
