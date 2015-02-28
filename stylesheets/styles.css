@@ -3,45 +3,53 @@ html, body {
     height: 100%;
 }
 
-
-
 .container {
-      min-height: 100%;
-    min-width: 1024px;
-         
+    height: 100%;
     width: 100%;
-    height: auto;
- 
 }
 
 .container section {    
-    height: 100%;
-    
+    height: auto;
 }
 
 #about {
-    background-color: #ffcf00;
+    text-align: center;
+    background-color: #ffcf00;  
+    position: relative;
+    height: 100%;
 }
 
-#about .img {
-    position:absolute; 
-    z-index:2;
+.img2{
+    margin-top: 200px;
+    z-index: 1;
 }
 
-#about .txt {
-    position:absolute; 
-    z-index:1;
+.img1{
+    position: absolute;
+    margin-top: 50px;
+    left: 50%;
+    margin-left: -250px;
+    z-index: 2;
 }
 
 #speciality {
+    display: flex;
     background-color: #2cd7e0;
 }
 
+#speciality img{
+    flex: 1;
+}
+
 #works {
+    display: flex;
     background-color: #eeeeee;
 }
 #works img {
+    flex: 1;
     padding: 20px;
+    height: 100%;
+    width: 100%;
 }
 
 #pickpic {
